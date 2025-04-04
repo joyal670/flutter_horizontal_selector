@@ -36,15 +36,26 @@ class _WeightPickerExampleState extends State<WeightPickerExample> {
               fontWeight: FontWeight.bold,
               color: Colors.blue,
             ),
-            unselectedTextStyle: const TextStyle(fontSize: 16, color: Colors.grey),
+            unselectedTextStyle: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
             selectedItemDecoration: BoxDecoration(
               border: Border.all(color: Colors.blue, width: 2),
               borderRadius: BorderRadius.circular(8),
               color: Colors.blue.withOpacity(0.1),
             ),
-            unselectedItemDecoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-            selectedItemPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            unSelectedItemPadding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+            unselectedItemDecoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
+            ),
+            selectedItemPadding: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 8,
+            ),
+            unSelectedItemPadding: const EdgeInsets.symmetric(
+              horizontal: 8,
+              vertical: 8,
+            ),
             scrollDuration: const Duration(milliseconds: 200),
             onValueSelected: (value) {
               setState(() {

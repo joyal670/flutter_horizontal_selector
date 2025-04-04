@@ -101,7 +101,9 @@ class _HorizontalPickerState extends State<HorizontalPicker> {
     _selectedIndexNotifier = ValueNotifier(widget.initialSelectedIndex ?? 0);
 
     // Initialize the scroll controller with the initial selected index.
-    _scrollController = FixedExtentScrollController(initialItem: _selectedIndexNotifier.value);
+    _scrollController = FixedExtentScrollController(
+      initialItem: _selectedIndexNotifier.value,
+    );
 
     // Add a post-frame callback to notify the parent widget of the initial selected value.
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -129,7 +131,8 @@ class _HorizontalPickerState extends State<HorizontalPicker> {
   /// the unselected text style.
   TextStyle _getTextStyle(bool isSelected) {
     return isSelected
-        ? widget.selectedTextStyle ?? const TextStyle(fontSize: 26, fontWeight: FontWeight.bold)
+        ? widget.selectedTextStyle ??
+            const TextStyle(fontSize: 26, fontWeight: FontWeight.bold)
         : widget.unselectedTextStyle ??
             const TextStyle(fontSize: 16, fontWeight: FontWeight.normal);
   }
@@ -170,7 +173,9 @@ class _HorizontalPickerState extends State<HorizontalPicker> {
                 _scrollController.animateToItem(
                   index,
                   // Set the duration and curve for the animation
-                  duration: widget.scrollDuration ?? const Duration(milliseconds: 300),
+                  duration:
+                      widget.scrollDuration ??
+                      const Duration(milliseconds: 300),
                   curve: Curves.easeOut,
                 );
               }

@@ -1,7 +1,7 @@
 name: horizontal_slider
 description: "A customizable horizontal number picker with smooth scrolling, haptic feedback, and real-time value updates using ValueNotifier."
 version: 0.0.1
-homepage:
+homepage: https://github.com/joyal670/flutter_horizontal_selector
 
 environment:
   sdk: ^3.7.0

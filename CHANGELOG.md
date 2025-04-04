@@ -1,3 +1,7 @@
+## 0.0.3
+### Changes
+- Fixed documentation.
+
 ## 0.0.2
 ### Changes
 - Fixed documentation and README formatting.

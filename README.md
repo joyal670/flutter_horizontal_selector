@@ -38,6 +38,11 @@ Perfect for fitness, health, or any numeric input UI.
 
 check the /example folder in the repository.
 
+## 📸 Screenshot
+
+![Horizontal Picker Screenshot](https://github.com/joyal670/flutter_horizontal_selector/blob/master/screenshot.png?raw=true)
+
+
 ```dart
 class WeightSelector extends StatelessWidget {
   const WeightSelector({super.key});

@@ -23,10 +23,6 @@ A customizable horizontal picker for Flutter, ideal for selecting values like we
 - 🎨 **Highly customizable** — Control picker height, item size, scroll animation, perspective, and more.
 - 🧩 **Easy to integrate** — Drop-in widget for your next Flutter form or input screen.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
@@ -37,10 +33,6 @@ Customize text styles, decorations, and scroll behavior. Simply pass a list of n
 Perfect for fitness, health, or any numeric input UI.
 
 check the /example folder in the repository.
-
-## 📸 Screenshot
-
-![Horizontal Picker Screenshot](https://github.com/joyal670/flutter_horizontal_selector/blob/master/screenshot.png?raw=true)
 
 
 ```dart
@@ -84,6 +76,10 @@ class WeightSelector extends StatelessWidget {
   }
 }
 ```
+
+## 📸 Screenshot
+
+![Horizontal Picker Screenshot](https://github.com/joyal670/flutter_horizontal_selector/blob/master/screenshot.png?raw=true)
 
 ## Contributing 🤝
 
